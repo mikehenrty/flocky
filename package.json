@@ -1,0 +1,8 @@
+{
+  "name": "flocky",
+  "main": "index.js",
+  "dependencies": {
+    "pi-gpio": "0.0.8",
+    "nodejs-websocket": "1.5.0"
+  }
+}
