@@ -1,4 +1,4 @@
-const SERVER_URL = 'ws://flocky.local:8001';
+const SERVER_URL = 'wss://flocky.local:8001';
 
 var output = document.getElementById('output');
 function write(message) {
