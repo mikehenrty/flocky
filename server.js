@@ -29,7 +29,9 @@ wss.on('connection', ws => {
 function broadcast(message) {
   console.log('broadcasting', message);
   conns.forEach(conn => {
-    conn.send(message);
+    try {
+      conn.send(message);
+    } catch (e) {}
   });
 } 
 
